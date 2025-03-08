@@ -1,1 +1,1 @@
-<h1>Dvelte FrontEnd Demo</h1>
+<h1>Svelte FrontEnd Demo</h1>
