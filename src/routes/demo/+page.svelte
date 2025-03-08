@@ -1,1 +1,1 @@
-<a href="/demo/lucia">lucia</a>
+<h1>Dvelte FrontEnd Demo</h1>
