@@ -9,7 +9,7 @@
     user = data.user
     v = $page.url.pathname
     if (v == "/") active = 0
-    if (v == "/cica") active = 1
+    if (v == "/tools") active = 1
     if (v == "/demo") active = 2
     if (v == "/demo/lucia") active = 10
     if (v == "/demo/lucia/login") active = 10
@@ -24,13 +24,13 @@
   </a>
   <a class="item {active === 1 ? 'active' : ''}"
      onclick={() => {active = 1}} 
-     href="/cica">
-    Cica
+     href="/tools">
+    Eszközök
   </a>
   <a class="item {active === 2 ? 'active' : ''}"
      onclick={() => {active = 2}}
      href="/demo">
-    Demo
+    Front-end Demó
   </a>
   <a class="item {active === 10 ? 'active' : ''}"
     onclick={() => {active = 10}} 
@@ -46,9 +46,7 @@
     </div>
   </div>
 </div>
-<div class="ui segment">
-  <p></p>
-</div>
+
 {@render children()}
 <style>
   .ui.menu a.item {
